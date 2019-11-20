@@ -5,28 +5,30 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-background-color: blue;
+background-color: #0C325A;
 }
 
 header {
   margin: auto;
   background-color: blue;
   width: 80%;
-  height: 550px;
-}
+  height: 700px;
+  }
 .page-header {
-;
   height: 100%;
   margin: auto;
   background-color: #0C325A;
+  background-image: url(../img/oldman.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: +110% 100%;
 }
 .header-nav {
   margin: 0 auto;
   height: 150px;
-  width: 85%;
+  width: 100%;
   background-color: #0C325A;
   line-height: 150px;
-
 }
 header-nav:after {
   content: "";
@@ -36,8 +38,6 @@ header-nav:after {
 .list-inline {
   list-style: none;
 }
-
-
 
 .header-nav li {
   display: inline;
@@ -50,17 +50,47 @@ header-nav:after {
   font-size: 20px;
 }
 .logo-link{
-  margin-right: 12px;
+  margin-right: 25px;
 
 }
-
 .header-nav-left {
   float: left;
 }
 .header-nav-right {
   float: right;
 }
+.header-bottom {
+  width: 50%;
+  height: 550px;
+  position: relative;
+}
+.testo-header-bottom{
+  position: absolute;
+  top: 50%;
+  left:0%;
+  transform: translateY(-50%);
+}
+.testo-header-bottom>h1 {
+  font-size: 80px;
+  color: white;
 
+}
+a.login {
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 5px;
+}
+a.button {
+  margin-top: 20px;
+  color: white;
+  background-color: green;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 22px;
+  text-transform: uppercase;
+  padding: 20px;
+  border-radius: 5px;
+}
 
 
 
