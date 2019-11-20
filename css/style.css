@@ -18,13 +18,13 @@ header {
 ;
   height: 100%;
   margin: auto;
-  background-color: yellow
+  background-color: #0C325A;
 }
 .header-nav {
   margin: 0 auto;
   height: 150px;
   width: 85%;
-  background-color: green;
+  background-color: #0C325A;
   line-height: 150px;
 
 }
@@ -47,15 +47,19 @@ header-nav:after {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 20px;
 }
 .logo-link{
   margin-right: 12px;
+
 }
 
 .header-nav-left {
   float: left;
 }
-
+.header-nav-right {
+  float: right;
+}
 
 
 
